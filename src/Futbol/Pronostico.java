@@ -7,9 +7,7 @@ public class Pronostico {
     //String Descripcion;
     int IdequipoLocalp;
     int IdequipoVisitantep;
-    int GolesLocalp;
-    int GolesVisitantep;
-    String Local;
+        String Local;
     String Empate;
     String Visita;
 

@@ -27,5 +27,5 @@ public class Partido {
     public void setGolesVisitante(int GolesVisitante){this.GolesVisitante=GolesVisitante;}
     public String equipo(){
         return " Equipo "+this.NombreDelEquipoLocal+" id "+this.IdequipoLocal;
-    }
+    }//era para probar nomas
 }

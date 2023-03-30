@@ -20,7 +20,7 @@ public class CalculoAux {
         this.golesB = golesB;
     }
 
-    public Enum ResultadoPartido() {
+    public Enum ResultadoPartido() {//compara los goles de los partidos y devuelve el Enum q corresponde
         if (this.golesA > this.golesB) {
             return Resultado.GANADOR;
         } else if (this.golesA < this.golesB){return Resultado.PERDEDOR;}
